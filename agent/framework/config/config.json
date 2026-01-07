@@ -39,7 +39,7 @@
       },
       "ETH": {
         "CONF": {
-          "nodeUrl": "https://ethereum-sepolia-rpc.publicnode.com",
+          "nodeUrl": "https://eth-sepolia.api.onfinality.io/public",
           "agentAddr": "0x6a8299deccd420d5b6970d611afb25cc8e910220",
           "multiSigThreshold": 2,
           "maxGasPrice": 50,
