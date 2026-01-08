@@ -31,13 +31,12 @@ class TokenHomeUtil {
 
         // const [owner] = await ethers.getSigners();
         //   console.log("\n\n...getSigners!");
-        // const tokenHomeSc = await ethers.getContractFactory("Token3643Home");  // 自动加载 ABI
+        // const tokenHomeSc = await ethers.getContractFactory("Token3643Home");
         //   console.log("\n\n...load abi!");
         // const tokenHomeScInst = await tokenHomeSc.attach(TokenHomeScAddress);
         //   console.log("\n\n...to generate instance!");
         // await tokenHomeScInst.waitForDeployment();
 
-        // // 调用函数
         // try {
         //   console.log("\n\n...to config peerTokenRemote: ", peerRemoteChainID, peerTokenRemote);
         //   const tx = await tokenHomeScInst.configTokenRemote(peerRemoteChainID, peerTokenRemote);
@@ -45,7 +44,7 @@ class TokenHomeUtil {
         //   await tx.wait();
         //   console.log("Success:", await tx.hash);
         // } catch (error) {
-        //   console.error("Error:", error.message);  // 检查详细错误
+        //   console.error("Error:", error.message);
         // }
                 
         let signedSc = this.sc.connect(this.signer);

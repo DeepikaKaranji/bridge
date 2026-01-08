@@ -66,7 +66,6 @@ module.exports = class ScanPolygonService extends ScanChainBase{
 
     for(let txhash of map_txhash.keys()) {
       let receipt = await this.web3.eth.getTransactionReceipt(txhash);
-      // ÏÈ¶ÁÈ¡taskId
       let taskId;
       for(let idx_gateway = 0; idx_gateway < receipt.logs.length; ++idx_gateway) {
         let log = receipt.logs[idx_gateway];

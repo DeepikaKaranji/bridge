@@ -284,12 +284,12 @@ const OneIdWhiteTxt = styled.div`
 // Bitcoin->Others, 60min
 // Others->Bitcoin, 60min
 
-// Polygon->Others, 30min (不包括to Bitcoin)
-// Cardano->Others, 30min(不包括to Bitcoin)
-// Blast->Others, 30min(不包括to Bitcoin)
+// Polygon->Others, 30min (not include to Bitcoin)
+// Cardano->Others, 30min(not include to Bitcoin)
+// Blast->Others, 30min(not include to Bitcoin)
 // Others->Solana, 30min
 
-// 剩余其他 15min
+// not include  15min
 
 
 const timeConfig = {
