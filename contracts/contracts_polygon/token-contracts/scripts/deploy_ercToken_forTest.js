@@ -2,7 +2,7 @@
 const { ethers } = require("hardhat");
 
 async function main() {
-  const initialSupply = 1000000; // 初始发行量，例如 1,000,000 代币
+  const initialSupply = 1000000;
   const MyToken = await ethers.getContractFactory("MyToken3643");
   const myToken = await MyToken.deploy(initialSupply);
 

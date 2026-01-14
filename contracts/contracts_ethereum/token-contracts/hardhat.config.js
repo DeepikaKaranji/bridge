@@ -23,9 +23,9 @@ module.exports = {
     sepolia: {
       url: `https://sepolia.infura.io/v3/${process.env.INFURA_PROJECT_ID}`,
       accounts: [process.env.PK],
-      chainId: 11155111, // Sepolia 的链 ID
-      gas: "auto", // 自动估算 gas 限制
-      gasPrice: "auto", // 自动估算 gas 价格
+      chainId: 11155111, // Sepolia chain ID
+      gas: "auto",
+      gasPrice: "auto",
     }
   },
   etherscan: {

@@ -32,16 +32,15 @@ class TokenRemoteUtil {
         }
 
         const [owner] = await ethers.getSigners();
-        const tokenRemoteSc = await ethers.getContractFactory("Token3643Remote");  // 自动加载 ABI
+        const tokenRemoteSc = await ethers.getContractFactory("Token3643Remote");
         const tokenRemoteScInst = await tokenRemoteSc.attach(LOCAL_TOKENREMOTE_SCADDRESS);
 
-        // 调用函数
         try {
           const tx = await tokenRemoteScInst.setTrustedRemotes([peerChainId], [remoteToken], [true]);
           await tx.wait();
           console.log("setTrustedRemotes Success:", await tx.hash);
         } catch (error) {
-          console.error("Error:", error.message);  // 检查详细错误
+          console.error("Error:", error.message);
         }
 
     }

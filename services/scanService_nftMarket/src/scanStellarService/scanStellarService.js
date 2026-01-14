@@ -199,7 +199,6 @@ module.exports = class ScanStellarService extends ScanChainBase {
 
       {
         //**********************************************************************
-        // ÒòÎªºÏÔŒŽúÂëÖÐ²ÐÁôÁœŸäÈçÏÂµÄ²âÊÔŽúÂë£¬ÐèÌØÊâŽŠÀí
         // env.events().publish(("CancelOrder",), ("1111"));
         // sender.require_auth();
         // env.events().publish(("CancelOrder",), ("2222"));
