@@ -1,3 +1,5 @@
+ > ⚠️ **NOTICE:** This app 'app_erc3643' has been supported by [app_bridge_ui](https://github.com/LFDT-Smoot/bridge/tree/main/apps/app_bridge_ui). Please use  [app_bridge_ui](https://github.com/LFDT-Smoot/bridge/tree/main/apps/app_bridge_ui) for further development.
+ 
 # SMOOT-Bridge: Secure Cross-Chain Messaging and Interoperability Protocol
 
 
