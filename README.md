@@ -77,10 +77,10 @@ We welcome community input on roadmap priorities. Please open an issue in the [b
 
 The following documents and links will help you understand Smoot's vision, governance, and community processes:
 
-- Our [Code of Conduct](https://www.lfdecentralizedtrust.org/code-of-conduct).
 - The [Smoot Technical Charter](https://github.com/LFDT-Smoot/governance/blob/main/Smoot%20Technical%20Charter%20Final%204-17-2025.md) describes the project's governance structure and decision-making processes.
 - Community presentations and recordings are available in the [Smoot YouTube playlist](https://www.youtube.com/playlist?list=PL0MZ85B_96CE-gF5178qvm0-kdt5xggPE).
 - All Smoot repositories are licensed under the [Apache 2.0 License](https://github.com/LFDT-Smoot/governance/blob/main/LICENSE).
+- Our [Code of Conduct](https://www.lfdecentralizedtrust.org/code-of-conduct).
 <!-- TODO: Add these files and uncomment the links
 - Our [CONTRIBUTING.md](https://github.com/LFDT-Smoot/bridge/blob/main/CONTRIBUTING.md) explains how to contribute code, documentation, and ideas.
 - Our [MAINTAINERS.md](https://github.com/LFDT-Smoot/bridge/blob/main/MAINTAINERS.md) lists the current project maintainers and their affiliations.
@@ -95,7 +95,6 @@ The following standard LFDT project files are in progress, and will be updated s
 - `CONTRIBUTING.md` — Contribution guidelines (coding standards, PR process, commit conventions)
 - `MAINTAINERS.md` — List of maintainers with names, organizations, and GitHub handles
 - `SECURITY.md` — Vulnerability disclosure and reporting policy
-- `CODE_OF_CONDUCT.md` — Or a link to the [LFDT Code of Conduct](https://www.lfdecentralizedtrust.org/code-of-conduct)
 - `ADOPTERS.md` — Organizations and projects using Smoot in production or development
 
 ## Discord Communication Channels
